@@ -11,7 +11,7 @@ public class HelloController {
   @GetMapping("/hello")
   public Hello getHelloWordObject() {
       Hello helloObj = new Hello();
-      helloObj.setMessage("Hi there..!! ");
+      helloObj.setMessage("Hi Barracuties..Let..Set..GO!! ");
       return helloObj;
   }
 }
